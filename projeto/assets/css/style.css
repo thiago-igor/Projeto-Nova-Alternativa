@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #0a1128;
+    --white-color: #fff;
+    --light-gray-color: #eee;
+    --gap: 3rem;
+    --secondary-color: crimson;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 6rem; /*6 X 10 = 60px*/
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 6rem;
+    margin-bottom: 5rem; /*Margin inferior*/
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5rem;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
+}
+
+p{
+    margin-bottom: 3rem;
+}
+
+.main-bg{
+    background-image: url('../image/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--primary-color);
+}
+
+.menu-spacing{
+    height: 6.5rem;
+}
+
+.section{
+    min-width: 100vh;
+}
+
+
+
+.menu-content{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0; 
+    
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap) ;
+}
+
+.intro-content{
+    position: relative;
+    align-items: center;
+    gap: var(--gap);
+    min-height: 100vh; 
+}
+
