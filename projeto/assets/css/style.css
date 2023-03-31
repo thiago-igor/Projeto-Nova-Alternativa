@@ -68,7 +68,7 @@ p{
 
 
 .main-bg{
-    background-image: url('../image/main-bg.svg');
+    background-image: url('../image/main.svg');
     background-size: cover;
     background-position: center center;
     color: var(--primary-color);
@@ -122,7 +122,7 @@ p{
 }
 
 .section{
-    min-width: 100vh;
+    min-height: 100vh;
 }
 
 
