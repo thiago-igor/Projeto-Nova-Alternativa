@@ -177,3 +177,16 @@ p{
     gap: var(--gap);
     counter-reset: grid-counter;
 }
+
+.galery-img{
+    width: 100%;
+    max-width: 36rem;
+    max-height: 48rem;
+    overflow: hidden;
+}
+
+.galery-img img:hover{
+    transform: translate(3%, -3%) scale(1.2) rotate(5deg);
+    transition:all 300ms ease-in-out ;
+}
+
