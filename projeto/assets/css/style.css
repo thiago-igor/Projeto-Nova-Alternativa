@@ -190,3 +190,14 @@ p{
     transition:all 300ms ease-in-out ;
 }
 
+.responsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table{
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
