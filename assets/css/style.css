@@ -266,6 +266,10 @@ table th, table td{
     transition: all 300ms ease-in-out;
 }
 
+.form-group input, textarea{
+    color: var(--white-color);
+}
+
 .form-group button:hover{
     background: var(--primary-color);
     color: var(--white-color);
