@@ -293,14 +293,6 @@ table th, table td{
     padding: 3rem;
 }
 
-@media (max-width:900px){
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: var(--gap);
-        counter-reset: grid-counter;
-    }
-}
 
 @media (max-width:800px){
     .intro-content, .grid{
