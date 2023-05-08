@@ -161,6 +161,8 @@ p{
     height: auto;
 }
 
+
+
 .grid-one-content{
     display: flex;
     flex-flow: column wrap;
@@ -310,4 +312,11 @@ table th, table td{
         display: block;
     }
 
+}
+
+@media (max-width:500){
+    .section{
+        min-width: 100%;
+        min-height: 100%;
+    }
 }
