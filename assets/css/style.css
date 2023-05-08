@@ -295,6 +295,16 @@ table th, table td{
     padding: 3rem;
 }
 
+@media (max-width:900px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--gap);
+        counter-reset: grid-counter;
+    }
+
+}
+
 
 @media (max-width:800px){
     .intro-content, .grid{
@@ -310,13 +320,5 @@ table th, table td{
 
     .grid-one-content{
         display: block;
-    }
-
-}
-
-@media (max-width:500){
-    .section{
-        min-width: 100%;
-        min-height: 100%;
     }
 }
